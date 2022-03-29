@@ -43,7 +43,7 @@ document.getElementById("btn").addEventListener("click", () => { //навеши�
         return Math.floor(Math.random() * vals.length);  
     };
 
-    //Функция рандомного числа в диапозоне от 0 до 360
+    //Функция рандомного числа в указанном диапозоне
     function getRandomInt(min, max) {
         let rand = min + Math.random() * (max + 1 - min);
         return Math.floor(rand);
