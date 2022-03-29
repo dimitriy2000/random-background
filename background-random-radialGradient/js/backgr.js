@@ -1,4 +1,4 @@
-//Создаём генератор рандомного цвета фона линейным градиентом
+//Создаём генератор рандомного цвета фона радиального градиента
 document.getElementById("btn").addEventListener("click", () => { //навешиваем прослушиватель
     let color1 = document.querySelector(".color1"); //передаём в переменную color1 класс .color1 
     let color2 = document.querySelector(".color2"); //передаём в переменную color2 класс .color2
